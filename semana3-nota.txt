@@ -1,0 +1,118 @@
+SEMANA 3
+
+tag- palavra chave da linguagem, comando
+elementos- componente do documento, a tag faz parte do elemento, partes do documento html
+atributos- recebe valores, caracteristicas do elemento, caracteriza o elemento
+
+
+estrutura:
+ html é "raiz", que sempre tem "filho", nese caso é o body e o head, e esses também tem filhos.
+descendente- filho é o primeiro descendente 
+
+<HEAD>: elemento que tem os meta dados (dado que descreve aquela documentação)
+- dados que descrevem o documento html estão no head
+-<title> é o elemento que contém o título do documento, é exibido na barra de títulos do navegador web
+-<meta> é o elemento utilizado para representar outros metadados ou informações adicionais do documento,
+elementos que não tem conteudo, é a tag e atributos de valor. O QUE ESTÁ DENTRO DO META NÃO APARECE NO SEU SITE 
+
+<BODY>: raiz do conteúdo, vão fazer parte do site
+- <h1>-<h6> são elementos que representam cabeçalhos. H1 é o mais importante, H6 o menos. Feito para organizar o conteúdo,
+
+elementos de bloco: blocos (contêiner) semantico 
+• <address>
+• <article>
+• <aside>
+• <footer>
+• <header>
+• <main>
+• <nav>
+• <section>
+
+ conteúdo:
+-<p> representa um parágrafo
+-<div> é um contêiner genérico usado para controlar o fluxo do conteúdo
+-<span> é um contêiner genérico inline. NÃO SIGNIFICA NADA NA LINGUAGEM 
+-<blockquote>
+-<figcaption>
+-<figure>
+-<hr>
+-<pre> mantém a formatação escolhida pelo programador 
+ 
+
+listas:
+- <ul> lista não ordenada, para coisas que não faz sentido ordenar EX: LISTA DE CORES, LISTA DE LINKS  
+-<ol> lista ordenada EX: LISTA DE JOGADORES FAVORITOS
+-<li> elemento usado para representar um item de uma lista
+-<menu> é uma alternativa semântica para o <ul>. geralmente usado para fazer uma lista de links
+
+lista de definições:
+• <dl> lista de definições
+• <dt> itens
+• <dd> definições
+
+ marcação semantica:
+- <a> é um elemento âncora que cria um hyperlink para uma
+página web, um arquivo, um endereço de email, cria referencia para um link da web
+ex: <a href="http://mangeli.com.br">Mangeli</a>
+
+-<strong> indica conteúdo de grande importância, semelhante um negrito.  A TAG <B> ERA USADA PRA ISSO, NÃO SE DEVE USAR 
+-<em> marca um elemento que deve receber ênfase, semelhante a um itálico
+-<del> é o elemento utilizado para demarcar texto que foi
+apagado do documento, semelhante ao tachado
+-<ins> deixa o texto sublinhado 
+
+outro:
+• <abbr>
+• <bdi>
+• <bdo>
+• <br> quebra de linha 
+• <cite>
+• <code>
+• <data>
+• <dfn>
+• <kbd>
+• <mark>
+• <q>
+
+midia:
+O atributo importante para essas tags é o src.
+• <img>
+• <audio>
+• <video>
+
+formulario:
+-<form> enviar dados para o servidor 
+-<button> elemneto interativo, pode ser ativado e realiza uma ação
+-<input> captura mts entradas diferentes, varios tipos de input. 
+-<textarea>
+-<select> é o controle que fornece uma lista de opções que
+são representadas pela tag <option>. CADA OPTION VAI SER UM OPÇÃO QUE VOCE TA SELECIONANDO
+
+
+outros:
+ <datalist>
+• <fieldset>
+• <label>
+• <legend>
+• <meter>
+• <optgroup>
+• <progress>
+
+atributos que controlam eventos:
+-onclick
+-etc
+
+link para ver os eventos: https://developer.mozilla.org/en-US/docs/Web/
+Events/Event_handlers
+
+atributo usados em todos elentos do conteudo:
+• class determina um conjunto de elementos 
+• id identificação de um elemento 
+• name qual a variavel que vai receber o valor (caso de formulario), colocar um novo identificador pro elemento
+• hidden esconder elementos que não são importantes para o usuario ver
+• style 
+• title 
+referencia
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
