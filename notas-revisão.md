@@ -14,7 +14,7 @@ javascript- é a linguagem que permite adicionar interatividade e dinamismo nas 
 elementos- é composto por uma tag (de abertura e fechamento) e tem conteúdo
 atributos- são as informações adicionais sobre um elemento
 
-5- /*<html>
+5- <html>
 <head>
 <title>Minha página</title>
 <meta charset="utf-8">
@@ -22,7 +22,7 @@ atributos- são as informações adicionais sobre um elemento
 <body>
 	<p> Estou por aqui</p>
 </body>
-</html>*/
+</html>
 
 6- Organização lógica dos protocolos de comunicação em camadas conforme seus niveis de abstração, em camadas pois a cada camada presta serviço para a camada superior
 
