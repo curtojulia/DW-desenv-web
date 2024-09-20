@@ -37,48 +37,48 @@ peer-to-peer - é diferente pois os clientes se comunicam
 
 11- Dois (head e body- o elemneto raiz é o html). Não tem limite pois pode ser feito varios descendestes no body, e no head
 
-12- marcação/organização de texto- <footer> indica o rodapé, <h1> ao <h6> - cabeçalhos de vários níveis, <p> - parágrafos, <div>- conteiner genérico, <span>-conteiner generico inline, li 
-marcação semantica - del, ins, strong-negrito, em-itálico, a
+12- marcação/organização de texto: <footer> indica o rodapé, <h1> ao <h6> - cabeçalhos de vários níveis, <p> parágrafos, <div> conteiner genérico, <span> conteiner generico inline, li 
+marcação semantica: del, ins, strong-negrito, em-itálico, a
 
-13-form(textarea,input-todos esses são elementos do form) - form usado para capturar dados de usuário
+13-form(textarea,input-todos esses são elementos do form) usado para capturar dados de usuário
 
-14- <a> - cria os hiperlinks e permite a navegação (o href é um atributo do <a>, a tag é <a>)
+14- <a> cria os hiperlinks e permite a navegação (o href é um atributo do <a>, a tag é <a>)
 
 15- input, button, textarea, select, label, option, ...
 
-16- a) class - cria e determina o conjunto ou conjuntos que o elemento pertence 
+16- a) class: cria e determina o conjunto ou conjuntos que o elemento pertence 
 b)id- identificador univoco (exclusivo)
-c)name- defenir o nome de um elemento, o name recebe o valor do elemento que vai ser enviado para o servidor, é a variavel que o servidor vai ver 
-d)hidden- esconder 
-e)style- atributo que pode receber css, pode receber codigo css inline, tem prioridade sob os outros css's
-f)title- atributo usado para dar mais informação sobre o conteúdo
+c)name: defenir o nome de um elemento, o name recebe o valor do elemento que vai ser enviado para o servidor, é a variavel que o servidor vai ver 
+d)hidden: esconder 
+e)style: atributo que pode receber css, pode receber codigo css inline, tem prioridade sob os outros css's
+f)title: atributo usado para dar mais informação sobre o conteúdo
 
 17- capacidade da web de perder elementos/pedaços e estar funcionando mesmo com essa falta
 
-18-regra- estrutura composta pelo seletor e um conjunto de declarações, entre chaves, separados por ;
-seletor- define os elementos que serão aplicados a regra 
-declaração- par (chave-valor) formado por uma propriedade e um valor, separado por dos pontos
+18-regra: estrutura composta pelo seletor e um conjunto de declarações, entre chaves, separados por ;
+seletor: define os elementos que serão aplicados a regra 
+declaração: par (chave-valor) formado por uma propriedade e um valor, separado por dos pontos
 
 19- 
-seletor de classe- seleciona os elementos daquela classe (.minha-classe)
-seletor de id- seleciona o elemento que tem o id (#meu-id)
+seletor de classe: seleciona os elementos daquela classe (.minha-classe)
+seletor de id: seleciona o elemento que tem o id (#meu-id)
 
-20- margin - distanciamento do elemento para seus vizinhos
-border- uma linha que sempre existe com a espessura 0
-padding- distancia do texto ao border
+20- margin: distanciamento do elemento para seus vizinhos
+border: uma linha que sempre existe com a espessura 0
+padding: distancia do texto ao border
 
 21- valores do atributo position
-static- padrão
+static: padrão
 <div style="background-color: purple; position: static;">
     posição static, padrão.
 </div>
 
-relative- deslocado em relaçao a posição original com o espaço dele mantido
+relative: deslocado em relaçao a posição original com o espaço dele mantido
 <div style="background-color: darkblue; position: relative; top: 15px; left: 20px;">
    minha posição original ainda tem o espaço  mantido, mas me desloquei
 </div>
 
-absolute- caso ngm seja relacionado a position relative, vai pro absolute
+absolute: caso ngm seja relacionado a position relative, vai pro absolute
 html-
     <div class="box">Fixo</div>
     <div style="height: 1500px;">Role a página</div>
@@ -91,7 +91,7 @@ css-
             height: 100px;
             background-color: purple;
         }
-fixed- fixo em relação ao viewport, tamanho da janela 
+fixed: fixo em relação ao viewport, tamanho da janela 
   <div class="tamanho-fixo">
 css-
 .tamanho-fixo{
