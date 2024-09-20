@@ -37,8 +37,7 @@ peer-to-peer - é diferente pois os clientes se comunicam
 
 11- Dois (head e body- o elemneto raiz é o html). Não tem limite pois pode ser feito varios descendestes no body, e no head
 
-12- marcação/organização de texto- <footer> indica o rodapé, <h1> ao <h6> - cabeçalhos de vários níveis, <p> - parágrafos, <div>- conteiner genérico,
- <span>-conteiner generico inline, <hr>, listas 
+12- marcação/organização de texto- <footer> indica o rodapé, <h1> ao <h6> - cabeçalhos de vários níveis, <p> - parágrafos, <div>- conteiner genérico, <span>-conteiner generico inline, li 
 marcação semantica - del, ins, strong-negrito, em-itálico, a
 
 13-form(textarea,input-todos esses são elementos do form) - form usado para capturar dados de usuário
