@@ -1,0 +1,54 @@
+let resultado;
+
+let preco = 30;
+
+if (preco < 40){
+  resultado = "Preço Barato";
+} else {
+  resultado = " Livro caro"
+}
+
+preco = 50;
+
+resultado = preco<40 ? "Preço barato" : "Preço caro"; 
+
+const pessoa = {
+  nome: 'Diego',
+  idade: 26
+}
+
+pessoa.sobrenome = 'Pinho';
+pessoa.datanascimento = '12/08/2000'
+
+console.log(pessoa);
+
+
+const meuArray = [1,2,3]
+
+
+let meuObjeto = {
+texto : 'uma mensagem',
+nome: 'júlia',
+idade: 40,
+faculdade: 'ibmec', 
+enderec: 'rua1'
+}
+console.log(meuObjeto)
+
+function soma(a,b){
+return a + b;
+}
+
+const anonima = function(a,b){  // usada por conta da função map que espera uma função anônima 
+  return a + b;
+}
+
+const arrow = (a,b) => {
+  return a + b
+}
+
+const arrow2 = (a,b) => a= b; // o depos da seta é o return, sendo igual a arrow 1 porém com um return direto
+
+const arrow3 = a => a + 2;  
+
+const dobro = (elemento) => {console.log(elemento * 2)}
