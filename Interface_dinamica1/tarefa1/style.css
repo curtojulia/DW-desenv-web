@@ -1,0 +1,38 @@
+#minha-div1{
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: brown;
+    h1{
+        text-align: center;
+    }
+}
+#minha-div2{
+    display: none;
+}
+@media screen and (min-width: 360px) { /*sobrescrever o codigo acima, para quando a largura for 360 */
+    #minha-div1{
+        background-color: blue;
+        height: 20vh;
+    }
+}
+@media screen and (min-width: 992px) {
+    #minha-div1{
+     background-color: aquamarine;   
+    }
+    }
+
+@media screen and (min-width: 1400px) {
+    #minha-div1{
+     background-color: green;    
+    }
+}
+@media screen and (min-width: 992px){
+    #minha-div2{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 3em;
+        background-color: cadetblue     
+    }
+}

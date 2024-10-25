@@ -1,0 +1,58 @@
+#conteiner{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        "a a"
+        "b c"
+        "d e "
+        "f f"
+    ;
+}
+#um{
+    grid-area: a;
+}
+#dois{
+    grid-area: b;
+}
+#tres{
+    grid-area: c;
+}
+#quatro{
+    grid-area: d;
+}
+#cinco{
+    grid-area: e;
+}
+#seis{
+    grid-area: f;
+}
+#conteiner > div {/* esse > é para pegar todos as divs dentro de conteiner (filhas de conteiner)*/
+    background-color: plum;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+/* #conteiner > div:nth-child(odd){  /* pega somente os impares */
+    /* display: none; */ 
+
+
+@media screen and (min-width: 760px) {
+    #conteiner{
+        grid-template-columns: auto auto;
+        display: grid;
+        gap: 5px;
+        grid-template-areas: 
+            "a a b"
+            "c d b"
+            "e f f "
+        ;
+        grid-template-rows: repeat(3, 10rem)
+    }
+    #conteiner > div{
+        height: 100%;
+    }
+}

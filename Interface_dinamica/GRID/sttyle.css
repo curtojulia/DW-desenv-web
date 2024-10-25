@@ -1,0 +1,26 @@
+#conteiner{
+    display: grid;
+    gap: 5px;
+}
+#conteiner > div {/* esse > é para pegar todos as divs dentro de conteiner (filhas de conteiner)*/
+    background-color: plum;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+#conteiner > div:nth-child(odd){  /* pega somente os impares */
+    display: none;
+}
+
+@media screen and (min-width: 760px) {
+    #conteiner{
+        grid-template-columns: auto auto;
+    }
+    #conteiner > div:nth-child(odd){
+        display: flex;
+    }
+}
