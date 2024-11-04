@@ -1,0 +1,20 @@
+#texto{
+    text-align: center;
+}
+body{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: gray;
+}
+body > img{
+    border-radius: 20px;
+}
+body > p{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin: 10px;
+}

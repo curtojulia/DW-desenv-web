@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #f5f5f5;
 
 }
 #conteiner > div{
@@ -26,11 +27,12 @@
 #conteiner a{
     justify-content: center;
     display: flex;
-    width: 300px;
+    width: 150px;
     background-color: black;
     color: white;
     border: 2px solid black;
     border-radius: 10px;
     text-decoration: none;
+    margin: 0 auto;
 }
 

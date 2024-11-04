@@ -37,7 +37,7 @@ const montaCard = (atleta) =>{
     return cartao;
 };
 
-pega_json(`${url}masculino`).then( 
+pega_json(`${url}feminino`).then( 
     (r) => {
         r.forEach(
              (ele) => conteiner.appendChild(montaCard(ele))  // loop
